@@ -1,1 +1,49 @@
+Esse módulo tem 5 temas principais, todos rápidos, práticos e diretos:
+1. Sintaxe
+2. Variáveis
+3. Tipos
+4. Entrada/Saída
+5. Operadores básicos
+-----------------------------
+Tema 1 -- Sintaxe
+1. O Python lê código linha por linha. Cada linha é um comando.
+Ex: print("Hello World!")
+REGRAS IMPORTANTES:
+Python é sensível a indentação (espaços)
+Não usa chaves {} igual outras línguagens
+Blocos são definidos por : e indentação
 
+Sintaxe simples = foco na lógica.
+------------------------------
+Tema 2 -- Variáveis
+Variáveis são nomes que guardam valores.
+nome = "Felipe"
+idade = 22
+peso = 65.5
+
+Regra de ouro:
+O nome da variável não pode começar com número e não pode ter espaço.
+------------------------------
+Tema 3 -- Tipos
+str = texto
+int = números inteiros
+float = números decimais
+bool = True ou False
+------------------------------
+Tema 4 -- Entrada e Saída
+Entrada ex:
+nome = input("Digite seu nome:")
+Saída ex:
+print("Olá nome")
+
+Obs: "nome" é uma variável que armazena o nome que foi solicitado pela entrada acima.
+Input sempre retorna STR
+------------------------------
+Tema 5 -- Operadores básicos
++ soma
+- subtração
+* multiplicação
+/ divisão
+// divisão inteira
+% resto da divisão
+** potência
