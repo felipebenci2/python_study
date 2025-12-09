@@ -12,5 +12,5 @@ idade = {idade}
 altura = {altura}
 peso = {peso}
 
-Resultado IMC: {resultado: .2f}
+Resultado IMC: {resultado:.2f}
  ''')
