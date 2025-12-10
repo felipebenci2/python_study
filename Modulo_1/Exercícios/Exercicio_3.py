@@ -1,1 +1,6 @@
+n1 = int(input('Digite um número inteiro: '))
+n2 = int(input('Digite outro número inteiro: '))
+total = n1 + n2
+
+print(f'A soma dos valores {n1} e {n2} restulta no produto de {total}.')
 
