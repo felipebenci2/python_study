@@ -1,0 +1,40 @@
+O if é a estrutura de decisão:
+if condição:
+    # bloco executado se for True
+else:
+    # bloco executado se for False
+
+Exemplo:
+idade = 20
+if idade >= 18:
+    print('Maior de idade')
+else:
+    print('Menor de idade')
+------------------------------------------
+Comparadores:
+==                   igual
+!=                   diferente
+>                    maior que
+<                    menor que
+>=                   maior ou igual
+<=                   menor ou igual
+------------------------------------------
+elif (mais de 2 alternativas)
+Exemplo:
+nota = 75
+if nota >= 90:
+    print('A')
+elif nota >= 70:
+    print('B')
+elif nota >= 50:
+    print('C')
+else:
+print('D')
+-------------------------------------------
+Operadores lógicos:
+if idade >= 18 and renda >+ 2000:
+    print('Pode financiar')
+if cor == 'azul' or cor == 'preto':
+    print('Cor permitida')
+if not chuva:
+    print('Pode sair')
