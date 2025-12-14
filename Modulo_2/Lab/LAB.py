@@ -1,5 +1,9 @@
-n = int(input('Insira um número: '))
-if n % 2 == 0 and n > 0:
-    print('O número é positivo e par')
+idade = int(input('Insira uma idade: '))
+if idade < 0 or idade > 120:
+    print('Idade inválida')
+elif idade >= 65:
+    print('Idoso')
+elif idade >= 18:
+    print('Adulto')
 else:
-    print('Não atende às condições')
+    print('Criança')
