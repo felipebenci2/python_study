@@ -1,9 +1,18 @@
-idade = int(input('Insira uma idade: '))
-if idade < 0 or idade > 120:
-    print('Idade inválida')
-elif idade >= 65:
-    print('Idoso')
-elif idade >= 18:
-    print('Adulto')
-else:
-    print('Criança')
+nome = input('Insira o nome do aluno: ')
+nota = float(input('Insira a nota do aluno: '))
+if nota > 10 or nota < 0:
+    status = 'Nota inválida'
+elif nota >= 9:
+    status = 'Excelente'
+elif nota >= 7:
+    status = 'Bom'
+elif nota >= 5:
+    status = 'Regular'
+elif nota < 5:
+    status = 'Reprovado'
+print(f'''
+===== Dados do Aluno =====
+Nome = {nome}
+Nota = {nota}
+Status = {status}
+      ''')
