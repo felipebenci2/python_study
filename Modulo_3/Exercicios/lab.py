@@ -1,10 +1,10 @@
-contador = 0
+soma = 0
 while True:
-    n = int(input('Digite um número qualquer ou 0 pra sair: '))
+    n = int(input('Digite números aleatórios ou 0 p/ sair: '))
     if n == 0:
         print('Fim')
         break
     if n != 0:
-        contador += 1 
+        soma += n
         print('Número salvo')
-print(f'Foram digitados {contador} números.')
+print(f'A soma dos números foi de {soma}')
