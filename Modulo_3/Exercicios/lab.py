@@ -1,3 +1,10 @@
-n = int(input('Insira um numero: '))
-for i in range(0, 11):
-    print(f'{n} x {i} = {n * i}')
+contador = 0
+while True:
+    n = int(input('Digite um número qualquer ou 0 pra sair: '))
+    if n == 0:
+        print('Fim')
+        break
+    if n != 0:
+        contador += 1 
+        print('Número salvo')
+print(f'Foram digitados {contador} números.')
